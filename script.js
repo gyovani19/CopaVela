@@ -56,7 +56,9 @@ const ASSETS = {
   
   const timestamp = _ => new Date().getTime()
   const accelerate = (v, accel, dt) => v + (accel * dt)
-  const isCollide = (x1,w1,x2,w2) => (x1 - x2) ** 2 <= (w2 + w1) ** 2
+  const COLLISION_SCALE_FACTOR = 0.5; // Ajuste este valor para o que você achar adequado
+
+  const isCollide = (x1, w1, x2, w2) => (x1 - x2) ** 2 <= ((w2 * COLLISION_SCALE_FACTOR) + (w1 * COLLISION_SCALE_FACTOR)) ** 2
   
   function getRand(min, max) {
       return Math.random() * (max - min) + min | 0;
