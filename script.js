@@ -1,7 +1,7 @@
 const ASSETS = {
   
     COLOR: {
-      TAR: ['#00c7ff', '#0070d0'],
+      TAR: ['linear-gradient(to bottom, #00c7ff, #0070d0)', 'linear-gradient(to bottom, #00c7ff, #ffffff)'],
       RUMBLE: {src : 'https://as1.ftcdn.net/v2/jpg/04/43/69/32/1000_F_443693248_FFOUon01HIYUVLVPFIyhrzDlbmWN8XKq.jpg'},
       GRASS: ['#eedccd', '#e6d4c5']    
     },
