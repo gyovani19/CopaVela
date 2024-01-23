@@ -145,7 +145,7 @@ body {
     left: 50%;
     top: 25%;
     transform: translate(-50%, -50%);
-    font-size: 3em;
+    font-size: 2.5em;
   
     background: -webkit-linear-gradient(#d825d8, #f08306);
     -webkit-background-clip: text;
